@@ -60,9 +60,8 @@ const Name = () => {
   return (
     <div
       ref={containerRef}
-      className="h-screen overflow-y-scroll snap-y snap-mandatory scroll-smooth 
-    [scrollbar-width:none] [&::-webkit-scrollbar]:hidden 
-    "
+      className="h-screen overflow-y-scroll snap-y snap-mandatory scroll-smooth scroll-container-slow 
+      [scrollbar-width:none] [&::-webkit-scrollbar]:hidden"
     >
       {SECTIONS.map((sec, index) => (
         <Section
